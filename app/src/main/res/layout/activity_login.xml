@@ -30,14 +30,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/username"
-            android:hint="Username"
+            android:hint="USERNAME"
             android:layout_below="@+id/awal" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/password"
-            android:hint="Password"
+            android:hint="PASSWORD"
             android:password="true"
             android:layout_below="@+id/username" />
     </RelativeLayout>
@@ -47,7 +47,6 @@
         android:layout_height="wrap_content"
         android:id="@+id/layout2"
         android:layout_below="@+id/ly1"
-        android:layout_alignParentStart="true"
         android:orientation="horizontal"
         android:paddingLeft="16dp"
         android:paddingRight="16dp">
@@ -75,8 +74,7 @@
         android:orientation="vertical"
         android:paddingTop="15dp"
         android:paddingLeft="16dp"
-        android:paddingRight="16dp"
-        android:layout_alignParentStart="true">
+        android:paddingRight="16dp">
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
